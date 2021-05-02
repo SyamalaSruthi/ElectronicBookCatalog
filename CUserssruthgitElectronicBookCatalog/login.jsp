@@ -5,9 +5,10 @@
       <!-- main body --> 
       <div id="comments" style="width:50%; margin:auto">
 	  <div align="center" style="color:#FF0000"><% if(request.getParameter("msg")!=null) out.print(request.getParameter("msg")); %></div><br />
-      <h2>Customer Login Form</h2>
-        <form action="model/customer.jsp" method="post" name="frm_login">
+      <!-- <h2><% out.print(request.getParameter("title")); %> Login Form</h2>   --> 
+        <form action="model/login.jsp" method="post" name="frm_login">
           <div>
+            <label for="name">Username <span>*</span></label>
             <input type="text" name="login_user" id="name" value="" size="22" required>
           </div>
           <div>
