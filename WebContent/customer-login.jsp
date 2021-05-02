@@ -8,7 +8,6 @@
       <h2>Customer Login Form</h2>
         <form action="model/customer.jsp" method="post" name="frm_login">
           <div>
-            <label for="name">Username <span>*</span></label>
             <input type="text" name="login_user" id="name" value="" size="22" required>
           </div>
           <div>

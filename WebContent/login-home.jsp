@@ -13,6 +13,7 @@
 			<li><a href="index.jsp">Home</a></li>
 			<li><a href="list-product.jsp?type_id=0">Shopping More</a></li>
 			<li><a href="report-order.jsp?customer_id=<%=session.getAttribute("customer_id")%>">My Orders</a></li>
+
 			<li><a href="customer.jsp?customer_id=<%=session.getAttribute("customer_id")%>">My Account</a></li>
 			<li><a href="model/customer.jsp?act=logout">Logout</a></li>
 		  </ul>
